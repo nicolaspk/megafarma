@@ -19,6 +19,7 @@ public class ConnectionFactory {
     }
 
     public static Connection getConnection(){
+
         try{
             if (connection != null && !connection.isClosed()) {
                 return connection;
